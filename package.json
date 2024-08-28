@@ -6,11 +6,15 @@
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
+    "deploy": "gh-pages -d _site",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Davide Brognoli",
   "license": "ISC",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
