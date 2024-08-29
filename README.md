@@ -46,9 +46,7 @@ Make sure you have the following dependencies installed before starting:
 
 To start a local development server, run:
 
-    ```bash
     npm run serve
-    ```
 
 This command will generate the site and make it available at [http://localhost:8080](http://localhost:8080). The server will automatically reload the site whenever you make changes to the source files.
 
@@ -56,20 +54,16 @@ This command will generate the site and make it available at [http://localhost:8
 
 To create a production build of the site, run:
 
-    ```bash
     npm run build
-    ```
-
+    
 The generated static files will be available in the `_site` folder.
 
 ### Deploy
 
 To deploy the site using GitHub Pages, run:
 
-    ```bash
     npm run deploy
-    ```
-
+    
 This command will deploy the contents of the `_site` directory to the `gh-pages` branch, making it available via GitHub Pages.
 
 ## Project Structure
