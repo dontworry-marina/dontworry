@@ -307,7 +307,7 @@ button {
 
 /* HOME */
 .heroContainer {
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   background-color: #1e1e1e;
@@ -475,12 +475,7 @@ button {
     grid-template-columns: minmax(0, 1fr);
  }
 }
-.heroContainer {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: #1e1e1e;
-}
+
 .hero {
   flex: 1;
   background-size: cover;
