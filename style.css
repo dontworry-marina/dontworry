@@ -266,6 +266,7 @@ button {
   justify-content: space-between;
   align-items: flex-start;
   text-align: left;
+  overflow: auto;
 }
 .serviceContent h3 {
   color: #fff;
