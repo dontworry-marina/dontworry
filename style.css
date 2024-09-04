@@ -334,6 +334,7 @@ button {
   background-position: center center;
   clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
   position: relative;
+  overflow: hidden;
 }
 
 .hero video {
@@ -504,12 +505,6 @@ button {
   }
 }
 
-.hero {
-  flex: 1;
-  background-size: cover;
-  background-position: center center;
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
-}
 .section {
   background-color: #1e1e1e;
   padding-bottom: 50px;
