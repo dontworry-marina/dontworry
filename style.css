@@ -72,10 +72,10 @@ button {
   margin-left: 20px;
 }
 .navigation a {
-  color: #6e7373;
+  color: #000;
 }
 .navigation a:hover {
-  color: #a5b669;
+  color: #FFF;
 }
 .navigation .menubar {
   display: none;
@@ -89,10 +89,10 @@ button {
   margin-left: 20px;
 }
 .instagram svg {
-  fill: #6e7373;
+  fill: #000;
 }
 .instagram:hover svg {
-  fill: #a5b669;
+  fill: #FFF;
 }
 @media (max-width: 1023px) {
   .navigation ul {
@@ -326,6 +326,7 @@ button {
 
 .heroHeader {
   padding: 20px 0;
+  background-color: rgb(169,182,114);
 }
 
 .hero {
