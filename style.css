@@ -40,6 +40,8 @@ button {
   font-weight: bold;
   border-radius: 0px;
   color: #000;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 .bw {
