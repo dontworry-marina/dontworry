@@ -38,6 +38,8 @@ ul {
 button {
   padding: 0.5rem 1rem;
   font-weight: bold;
+  border-radius: 0px;
+  color: #000;
 }
 
 .bw {
